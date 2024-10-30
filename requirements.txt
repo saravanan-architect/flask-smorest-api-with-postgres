@@ -1,0 +1,17 @@
+flask
+flask-smorest
+python-dotenv
+sqlalchemy
+flask-sqlalchemy
+pymysql
+mysql-connector-python==8.0.33
+flask-jwt-extended
+
+# passlib used to hash password
+passlib 
+
+# flask-migrate - when we install flask-migrate, it will automatically install a library called alembic
+flask-migrate
+
+# gunicorn - used to run our flask app in production
+gunicorn
